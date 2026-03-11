@@ -70,7 +70,9 @@ suitability_score: mean 0.516, min 0.265, max 0.833.
 suitability_class: distribution is imbalanced – Moderate (40%), Low (37%), High (23%).
 
 ## Visualizations
+
 1. Suitability Class Distribution
+
 ![Suitability Distribution](https://github.com/Nelvinebi/Geospatial-Suitability-Modeling-and-ML-for-Renewable-Energy-Site-Selection/blob/30f59027a9c37ef01d287d2be7d8968ff4e9bc10/Suitability%20Distribution.png)
 
 Shows the number of locations per suitability class.
@@ -78,6 +80,7 @@ Shows the number of locations per suitability class.
 Moderate and Low classes dominate; High suitability sites are scarce, which may affect model performance for the minority class.
 
 2. Solar vs Wind Energy Potential
+
 ![Solar vs Wind](https://github.com/Nelvinebi/Geospatial-Suitability-Modeling-and-ML-for-Renewable-Energy-Site-Selection/blob/30f59027a9c37ef01d287d2be7d8968ff4e9bc10/Wind%20vs%20Solar.png)
 
 Scatter plot of solar irradiance vs. wind speed, colored by suitability class.
@@ -87,7 +90,8 @@ High suitability sites tend to cluster in regions with higher solar irradiance a
 Low suitability sites are scattered, often with lower solar or extreme wind values.
 
 3. Suitability Score by Land Use Type
-![Suitability Score](https://github.com/Nelvinebi/Geospatial-Suitability-Modeling-and-ML-for-Renewable-Energy-Site-Selection/blob/30f59027a9c37ef01d287d2be7d8968ff4e9bc10/Suitability%20Distribution.png)
+   
+![Suitability Score](https://github.com/Nelvinebi/Geospatial-Suitability-Modeling-and-ML-for-Renewable-Energy-Site-Selection/blob/57e2173de509a9df16b4458583e3a64376c6c612/Suitability%20score.png)
 
 Box plots show the distribution of the continuous suitability score across land use categories.
 
@@ -96,6 +100,7 @@ Barren land exhibits the highest median suitability, followed by agricultural an
 Wetland and forest areas have the lowest suitability scores, likely due to environmental constraints.
 
 4. Spatial Distribution of Sites
+
 ![Spatial Distribution](https://github.com/Nelvinebi/Geospatial-Suitability-Modeling-and-ML-for-Renewable-Energy-Site-Selection/blob/e17395780519151f55a315e092c666b0a37f9ca8/image_1.png)
 
 Geographic coordinates plotted with color coding by suitability class.
